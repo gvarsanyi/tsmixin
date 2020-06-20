@@ -1,0 +1,30 @@
+{
+  "name": "tsmixin",
+  "version": "1.0.0",
+  "description": "Simple mixin for TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "ts-node test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvarsanyi/tsmixin.git"
+  },
+  "keywords": [
+    "mixin",
+    "typescript"
+  ],
+  "author": "Greg Varsanyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gvarsanyi/tsmixin/issues"
+  },
+  "homepage": "https://github.com/gvarsanyi/tsmixin#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
